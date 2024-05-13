@@ -1,0 +1,176 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+    color: #fff;    
+    background-color: black;
+
+}
+
+body{
+    background-color: #000;
+}
+
+.container-fluid{
+    display: flex;
+    background: linear-gradient(to bottom right, #2600ff, #ffffff);
+    height:800px ;
+}
+
+h2 {
+    color: white;
+}
+
+/* Kontainer kiri */
+.kiri {
+    border-radius: 10px;
+    width: 20%; /* Lebar kontainer kiri */
+    display: flex;
+    flex-direction: column; /* Menjadikan flex direction menjadi column */
+    align-items: center;
+    float: left;
+    background-color: #0000007c;
+}
+
+.kiri img {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Menjaga aspek rasio gambar */
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.5); /* Efek bayangan ke bawah sedikit */
+    transition: transform 0.3s ease; /* Efek transisi saat rotasi */
+}
+
+
+#profile-img.flipped {
+    transform: scaleX(-1);
+}
+
+.kiri hr{
+    background-color: white;
+}
+
+.kiri .btn {
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.323); /* Warna latar belakang tombol dengan opacity */
+    color: #f8f8f8;
+    font-weight: 100;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efek transisi pada warna latar belakang dan teks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan tombol */
+    width: 80%;
+}
+
+.kiri .btn:hover {
+    background-color: rgba(0, 47, 255, 1); /* Warna latar belakang tombol saat hover */
+    color: #fff; /* Warna teks tombol saat hover */
+}
+
+
+/* CSS untuk tombol pencarian dan tombol aksi */
+#search-button {
+    background-color: #333; /* Warna latar belakang tombol pencarian */
+    color: #fff; /* Warna teks tombol pencarian */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    padding: 10px 20px; /* Padding tombol */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+#search-button:hover {
+    background-color: #555; /* Warna latar belakang tombol pencarian saat hover */
+}
+
+.menu-button {
+    background-color: #28a745; /* Warna hijau untuk tombol aksi */
+    color: #fff; /* Warna teks tombol aksi */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    padding: 10px 20px; /* Padding tombol */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+    margin-bottom: 10px;
+}
+
+.menu-button:hover {
+    background-color: #218838; /* Warna hijau saat hover */
+}
+
+/* CSS untuk modal dialog */
+.modal-content {
+    background-color: #fff; /* Warna latar belakang modal */
+    color: #333; /* Warna teks pada modal */
+    border-radius: 10px; /* Sudut melengkung pada modal */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Efek bayangan pada modal */
+}
+
+.modal-header {
+    background-color: #333; /* Warna latar belakang header modal */
+    color: #fff; /* Warna teks header modal */
+    border-bottom: none; /* Hilangkan border bawah pada header modal */
+}
+
+.modal-footer {
+    background-color: #333; /* Warna latar belakang footer modal */
+    border-top: none; /* Hilangkan border atas pada footer modal */
+}
+
+/* CSS untuk halaman utama */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* CSS untuk tombol umum */
+.btn {
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan pada tombol */
+}
+
+/* CSS untuk tabel data */
+.table {
+    border-radius: 10px; /* Sudut melengkung pada tabel */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada tabel */
+}
+
+/* Efek animasi saat hover */
+.btn {
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+.btn:hover {
+    background-color: #000; /* Contoh perubahan warna saat hover */
+}
+
+.table {
+    transition: box-shadow 0.3s ease; /* Efek transisi saat hover */
+}
+
+.table:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Contoh perubahan box shadow saat hover */
+}
+
+/* Kontainer kanan */
+.kanan {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+    float: right;
+    width: 100%; /* Lebar kontainer kanan */
+    margin-right: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(0, 0, 0); /* Warna latar belakang footer */
+}
+
+
+
